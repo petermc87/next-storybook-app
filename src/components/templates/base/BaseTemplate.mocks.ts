@@ -1,13 +1,13 @@
 // Importing the prop interface from the base template.
-import { IBaseTemplate } from './BaseTemplate';
+import { Props } from './BaseTemplate';
 
 // The props data to be added to the BaseTemplate file.
-const base: IBaseTemplate = {
+const base: Props = {
   sampleTextProps: 'Hello World',
 };
 
 // You could also add aternative data.
-const alt: IBaseTemplate = {
+const alt: Props = {
   sampleTextProps: 'Hello Alt World!',
 };
 
