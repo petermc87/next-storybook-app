@@ -9,6 +9,8 @@
     "React": "readonly"
   },
   "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off",
     "no-unused-vars": [
       1,
       {
@@ -20,11 +22,11 @@
   "overrides": [
     {
       // ESLint will treat these as storybook files.
-      "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"],
-      "rules": {
-        // This is overriding a rule.
-        "storybook/hierarchy-seperator": "error"
-      }
+      "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"]
+      // "rules": {
+      //   // This is overriding a rule.
+      //   "storybook/hierarchy-seperator": "error"
+      // }
     }
   ]
 }
